@@ -8,17 +8,17 @@ class Scoreboard(Turtle):
         self.color("yellow")
         self.goto(0,260)
         self.hideturtle()
-        self.write(f"Score: {self.score}",align="center",font=("moonspace",24,"normal"))
+        self.write(f"Score: {self.score}",align="center",font=("moonspace",10,"normal"))
 
     def increase_score(self):
         self.clear()
         self.score +=1
-        self.write(f"Score: {self.score}",align="center",font=("moonspace",24,"normal"))
+        self.write(f"Score: {self.score}",align="center",font=("moonspace",18,"normal"))
         
 
     def game_over(self):
         self.goto(0,0)
-        self.write("GAME OVER",align="center",font=("moonspace",24,"normal"))
+        self.write("GAME OVER",align="center",font=("moonspace",18,"normal"))
 
     def return_game(self):
         self.goto(0,-15)

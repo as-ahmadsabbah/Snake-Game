@@ -10,7 +10,7 @@ screen = Screen()
 
 
 screen.setup(width=600, height=600)
-screen.bgcolor("white")
+screen.bgcolor("black")
 screen.title("My Snake Game")
 screen.tracer(0)
 
